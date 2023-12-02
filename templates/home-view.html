@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>All Articles</h3>
+    {% for object in objects_list %}
+        <p><span style="font-weight:bold">{{object.title}}</span>  {{object.content}}</p>
+    {% endfor %}
+{% endblock content %}

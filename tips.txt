@@ -1,0 +1,3 @@
+Python:
+dict.get() will always return a value, whereas dict[key] will raise a KeyError if the given key is missing.
+=============================================================================================================
